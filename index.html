@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mounika - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body
+    class="bg-gradient-to-br from-slate-950 via-purple-900 to-slate-950 text-gray-100"
+  >
+    <header
+      class="fixed top-0 w-full z-50 bg-gradient-to-r from-gray-900/95 to-purple-900/95 backdrop-blur-md border-b border-purple-500/30"
+    >
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex justify-between items-center"
+      >
+        <div class="flex items-center gap-2">
+          <div
+            class="w-9 h-9 sm:w-10 sm:h-10 bg-gradient-to-br from-indigo-400 to-purple-600 rounded-lg flex items-center justify-center font-bold text-white"
+          >
+            M
+          </div>
+          <h1
+            class="text-lg sm:text-2xl font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent"
+          >
+            Mounika
+          </h1>
+        </div>
+        <nav
+          class="hidden md:flex gap-6 sm:gap-8 text-xs sm:text-sm font-medium"
+        >
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <section
+      class="min-h-screen flex items-center justify-center pt-20 px-4 sm:px-6 relative overflow-hidden"
+    >
+      <div class="absolute inset-0 overflow-hidden">
+        <div
+          class="absolute top-10 -left-32 w-72 h-72 bg-purple-500/20 rounded-full blur-3xl"
+        ></div>
+        <div
+          class="absolute bottom-10 -right-32 w-72 h-72 bg-indigo-500/20 rounded-full blur-3xl"
+        ></div>
+      </div>
+
+      <div class="text-center max-w-3xl relative z-10">
+        <div
+          class="inline-block mb-4 sm:mb-6 px-3 sm:px-4 py-1 sm:py-2 bg-purple-500/20 border border-purple-500/50 rounded-full text-purple-300 text-xs sm:text-sm font-semibold"
+        >
+          👋 Welcome to my Portfolio
+        </div>
+
+        <h1
+          class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6 leading-tight"
+        >
+          Hi, I'm
+          <span
+            class="bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent"
+            >Mounika</span
+          >
+        </h1>
+
+        <p
+          class="text-base sm:text-lg md:text-xl text-gray-300 mb-2 font-medium"
+        >
+          Computer Science Engineering Student
+        </p>
+        <p
+          class="text-sm sm:text-base md:text-lg text-gray-400 mb-6 sm:mb-10 leading-relaxed"
+        >
+          Passionate about creating beautiful, responsive web applications and
+          solving complex problems with Java & modern web technologies.
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-3 sm:gap-4 mb-8 sm:mb-10">
+          <a
+            href="https://github.com/Mounika-tumbalam"
+            target="_blank"
+            class="btn-primary"
+          >
+            <i class="fab fa-github"></i>
+            <span class="hidden sm:inline">GitHub</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mounika-tumbalam-11b33b287/"
+            target="_blank"
+            class="btn-secondary"
+          >
+            <i class="fab fa-linkedin"></i>
+            <span class="hidden sm:inline">LinkedIn</span>
+          </a>
+          <a href="mailto:tumbalammounika@gmail.com" class="btn-outline">
+            <i class="fas fa-envelope"></i>
+            <span class="hidden sm:inline">Email</span>
+          </a>
+        </div>
+
+        <div class="flex justify-center">
+          <a href="#about" class="animate-bounce text-purple-400">
+            <i class="fas fa-chevron-down text-xl sm:text-2xl"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="about"
+      class="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-gradient-to-r from-slate-900 to-slate-950 relative"
+    >
+      <div
+        class="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 md:gap-12 items-center relative z-10"
+      >
+        <!-- IMAGE WRAPPER -->
+        <div class="relative flex justify-center items-center z-10">
+          <!-- Decorative gradient (behind image only) -->
+          <div
+            class="absolute -inset-3 rounded-3xl bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500 opacity-40 blur-xl -z-10"
+          ></div>
+
+          <!-- Profile Image -->
+          <img
+            src="assests/profile.jpg.jpeg"
+            alt="Tumbalam Mounika"
+            class="w-56 sm:w-64 md:w-72 rounded-3xl object-contain bg-gray-900 border border-gray-700 shadow-2xl"
+          />
+        </div>
+
+        <div>
+          <div
+            class="inline-block mb-3 sm:mb-4 px-3 py-1 bg-purple-500/20 border border-purple-500/50 rounded-full text-purple-300 text-xs font-semibold"
+          >
+            GET TO KNOW ME
+          </div>
+          <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6">
+            About
+            <span
+              class="text-transparent bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text"
+              >Me</span
+            >
+          </h2>
+          <p
+            class="text-gray-300 leading-relaxed text-sm sm:text-base md:text-lg mb-4 sm:mb-6"
+          >
+            I am a Computer Science Engineering student with strong fundamentals
+            in Java, Data Structures, and Web Technologies. I enjoy building
+            clean, responsive user interfaces and implementing logical solutions
+            to real-world problems.
+          </p>
+
+          <div class="grid grid-cols-2 gap-2 sm:gap-4 text-xs sm:text-sm">
+            <div class="info-card">
+              🎓 B.Tech CSE<br /><span class="text-purple-400 font-semibold"
+                >CGPA 8.9</span
+              >
+            </div>
+            <div class="info-card">
+              💻 Frontend &<br /><span class="text-purple-400 font-semibold"
+                >Java Dev</span
+              >
+            </div>
+            <div class="info-card">
+              📊 DSA<br /><span class="text-purple-400 font-semibold"
+                >Enthusiast</span
+              >
+            </div>
+            <div class="info-card">
+              🚀 Full Stack<br /><span class="text-purple-400 font-semibold"
+                >Learning</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="skills"
+      class="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-gradient-to-b from-slate-950 to-purple-900/20"
+    >
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-12 sm:mb-16">
+          <div
+            class="inline-block mb-3 sm:mb-4 px-3 py-1 bg-purple-500/20 border border-purple-500/50 rounded-full text-purple-300 text-xs font-semibold"
+          >
+            MY EXPERTISE
+          </div>
+          <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold">
+            <span
+              class="text-transparent bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text"
+              >Technical Skills</span
+            >
+          </h2>
+        </div>
+
+        <div
+          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6"
+        >
+          <div class="skill-card">
+            <div class="text-3xl sm:text-4xl mb-2 sm:mb-3">☕</div>
+            <h3 class="font-semibold text-sm sm:text-base">Java</h3>
+            <p class="text-xs text-gray-400 mt-1">OOP & DSA</p>
+          </div>
+          <div class="skill-card">
+            <div class="text-3xl sm:text-4xl mb-2 sm:mb-3">🗄️</div>
+            <h3 class="font-semibold text-sm sm:text-base">SQL</h3>
+            <p class="text-xs text-gray-400 mt-1">Databases</p>
+          </div>
+          <div class="skill-card">
+            <div class="text-3xl sm:text-4xl mb-2 sm:mb-3">🏗️</div>
+            <h3 class="font-semibold text-sm sm:text-base">HTML</h3>
+            <p class="text-xs text-gray-400 mt-1">Semantic</p>
+          </div>
+          <div class="skill-card">
+            <div class="text-3xl sm:text-4xl mb-2 sm:mb-3">🎨</div>
+            <h3 class="font-semibold text-sm sm:text-base">CSS</h3>
+            <p class="text-xs text-gray-400 mt-1">Responsive</p>
+          </div>
+          <div class="skill-card">
+            <div class="text-3xl sm:text-4xl mb-2 sm:mb-3">⚡</div>
+            <h3 class="font-semibold text-sm sm:text-base">JavaScript</h3>
+            <p class="text-xs text-gray-400 mt-1">DOM & ES6+</p>
+          </div>
+          <div class="skill-card">
+            <div class="text-3xl sm:text-4xl mb-2 sm:mb-3">📈</div>
+            <h3 class="font-semibold text-sm sm:text-base">DSA</h3>
+            <p class="text-xs text-gray-400 mt-1">Problem Solving</p>
+          </div>
+          <div class="skill-card">
+            <div class="text-3xl sm:text-4xl mb-2 sm:mb-3">🔧</div>
+            <h3 class="font-semibold text-sm sm:text-base">OOPs</h3>
+            <p class="text-xs text-gray-400 mt-1">Principles</p>
+          </div>
+          <div class="skill-card">
+            <div class="text-3xl sm:text-4xl mb-2 sm:mb-3">🔗</div>
+            <h3 class="font-semibold text-sm sm:text-base">Git & GitHub</h3>
+            <p class="text-xs text-gray-400 mt-1">Version Control</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="projects"
+      class="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-gradient-to-r from-purple-900/20 to-slate-950"
+    >
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-12 sm:mb-16">
+          <div
+            class="inline-block mb-3 sm:mb-4 px-3 py-1 bg-purple-500/20 border border-purple-500/50 rounded-full text-purple-300 text-xs font-semibold"
+          >
+            FEATURED WORK
+          </div>
+          <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold">
+            My
+            <span
+              class="text-transparent bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text"
+              >Projects</span
+            >
+          </h2>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6 sm:gap-8">
+          <div class="project-card">
+            <div class="flex items-start justify-between mb-3 sm:mb-4">
+              <div>
+                <span
+                  class="inline-block px-2 sm:px-3 py-1 bg-indigo-500/20 rounded-full text-indigo-300 text-xs font-semibold mb-2 sm:mb-3"
+                  >JAVA PROJECT</span
+                >
+                <h3 class="text-xl sm:text-2xl font-bold">Expense Tracker</h3>
+              </div>
+              <i
+                class="fas fa-folder-open text-purple-400 text-xl sm:text-2xl"
+              ></i>
+            </div>
+            <p class="text-gray-300 text-sm sm:text-base mb-3 sm:mb-4">
+              A console-based expense tracking application built using Core Java
+              and object-oriented programming principles.
+            </p>
+            <ul class="space-y-2 mb-4 sm:mb-6 text-xs sm:text-sm">
+              <li>
+                <i class="fas fa-check text-purple-400 mr-2"></i>ArrayList for
+                dynamic data storage
+              </li>
+              <li>
+                <i class="fas fa-check text-purple-400 mr-2"></i>File handling
+                for persistence
+              </li>
+              <li>
+                <i class="fas fa-check text-purple-400 mr-2"></i>Modular &
+                maintainable code
+              </li>
+              <li>
+                <i class="fas fa-check text-purple-400 mr-2"></i>OOP concepts
+              </li>
+            </ul>
+            <a
+              href="https://github.com/Mounika-tumbalam/java-Expense-Tracker"
+              target="_blank"
+              class="inline-flex items-center gap-2 text-indigo-400 hover:text-purple-400 transition text-sm sm:text-base"
+            >
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+          </div>
+
+          <div class="project-card">
+            <div class="flex items-start justify-between mb-3 sm:mb-4">
+              <div>
+                <span
+                  class="inline-block px-2 sm:px-3 py-1 bg-pink-500/20 rounded-full text-pink-300 text-xs font-semibold mb-2 sm:mb-3"
+                  >WEB PROJECT</span
+                >
+                <h3 class="text-xl sm:text-2xl font-bold">
+                  Password Generator
+                </h3>
+              </div>
+              <i class="fas fa-globe text-purple-400 text-xl sm:text-2xl"></i>
+            </div>
+            <p class="text-gray-300 text-sm sm:text-base mb-3 sm:mb-4">
+              A responsive web application that generates secure random
+              passwords based on user-selected criteria.
+            </p>
+            <ul class="space-y-2 mb-4 sm:mb-6 text-xs sm:text-sm">
+              <li>
+                <i class="fas fa-check text-purple-400 mr-2"></i>Custom password
+                length selection
+              </li>
+              <li>
+                <i class="fas fa-check text-purple-400 mr-2"></i>Multiple
+                character types
+              </li>
+              <li>
+                <i class="fas fa-check text-purple-400 mr-2"></i
+                >Copy-to-clipboard functionality
+              </li>
+              <li>
+                <i class="fas fa-check text-purple-400 mr-2"></i>Clean &
+                responsive design
+              </li>
+            </ul>
+            <div class="flex gap-4 text-sm sm:text-base">
+              <a
+                href="https://musical-kitsune-929773.netlify.app/"
+                class="inline-flex items-center gap-2 text-indigo-400 hover:text-purple-400 transition"
+              >
+                <i class="fas fa-play"></i> Live Demo
+              </a>
+              <a
+                href="https://github.com/Mounika-tumbalam/Generate-Random-password"
+                target="_blank"
+                class="inline-flex items-center gap-2 text-indigo-400 hover:text-purple-400 transition"
+              >
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="contact"
+      class="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-gradient-to-r from-slate-950 via-purple-900/30 to-slate-950 text-center"
+    >
+      <div class="max-w-7xl mx-auto">
+        <div
+          class="inline-block mb-3 sm:mb-4 px-3 py-1 bg-purple-500/20 border border-purple-500/50 rounded-full text-purple-300 text-xs font-semibold"
+        >
+          GET IN TOUCH
+        </div>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 sm:mb-4">
+          Let's
+          <span
+            class="text-transparent bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text"
+            >Connect!</span
+          >
+        </h2>
+        <p
+          class="text-gray-300 mb-8 sm:mb-10 md:mb-12 text-sm sm:text-base md:text-lg"
+        >
+          I'm always open to new opportunities and collaborations. Feel free to
+          reach out!
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-3 sm:gap-4 mb-8 sm:mb-12">
+          <a href="mailto:tumbalammounika@gmail.com" class="contact-link">
+            <i class="fas fa-envelope text-xl sm:text-2xl"></i>
+            <span class="text-xs sm:text-sm">Email</span>
+          </a>
+          <a href="https://linkedin.com" target="_blank" class="contact-link">
+            <i class="fab fa-linkedin text-xl sm:text-2xl"></i>
+            <span class="text-xs sm:text-sm">LinkedIn</span>
+          </a>
+          <a href="https://github.com" target="_blank" class="contact-link">
+            <i class="fab fa-github text-xl sm:text-2xl"></i>
+            <span class="text-xs sm:text-sm">GitHub</span>
+          </a>
+          <a href="#" class="contact-link">
+            <i class="fas fa-code text-xl sm:text-2xl"></i>
+            <span class="text-xs sm:text-sm">LeetCode</span>
+          </a>
+        </div>
+
+        <div class="pt-6 sm:pt-8 border-t border-gray-700">
+          <p class="text-gray-500 text-xs sm:text-sm">
+            © 2024 Mounika. All rights reserved. Made with
+            <i class="fas fa-heart text-red-500"></i> and Code.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
